@@ -35,7 +35,23 @@
      <!-- End of Navbar -->
 
     <div class="container mt-3">
-        <h1>Hello, world!</h1>
+        <div class="row d-flex justify-content-center">
+            <div class="col-4">
+                <h2>Add Categories</h2>
+                <hr>
+                    <form action="/categories/add" method="POST">
+                            <div class="mb-3">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" name="name" autocomplete="off">
+                            </div>
+                            <div class="float-end">
+                                <a href="/categories" class="btn-secondary">Back</a>
+                                <button type="submit" class="btn btn-rpimary">Save</button>
+                            </div>
+          
+                    </form>
+            </div>
+        </div>
     </div>
    
   </body>
