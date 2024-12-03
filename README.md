@@ -12,7 +12,8 @@
 - Category Page
   ![image](https://github.com/user-attachments/assets/f4a49815-17af-489b-8d0a-9807fdf7408d)
 
-
+Here is the video regarding the application
+[click here](https://youtu.be/oesgKtl7ujE)
 
  
 
