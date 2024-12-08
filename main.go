@@ -14,6 +14,7 @@ func main() {
 
 	//Homepage
 	http.HandleFunc("/", homecontroller.Welcome)
+	http.HandleFunc("/detail", homecontroller.Detail)
 
 	//categories
 	http.HandleFunc("/categories", categorycontroller.Index)

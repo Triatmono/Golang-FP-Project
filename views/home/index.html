@@ -109,14 +109,20 @@
             <th>Name</th>
             <th>Category</th>
             <th>Stock</th>
+            <th>Created</th>
+            <th>Updated</th>
           </tr>
         </thead>
         <tbody>
           {{ range .products }}
           <tr>
             <td>{{ .Name }}</td>
-            <td>{{ .Category.Name }}</td>
+            <td>{{ .Category.Name }}
+              <a href="/detail?id={{ .Id }}" class="btn btn-info btn-sm text-light">More Detail</a>
+            </td>
             <td>{{ .Stock }}</td>
+            <td>{{ .CreatedAt }}</td>
+            <td>{{ .UpdatedAt }}</td>
           </tr>
           {{ end }}
         </tbody>
