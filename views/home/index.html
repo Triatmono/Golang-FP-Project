@@ -48,6 +48,7 @@
       .text-primary {
         color: #6d4c41 !important; /* Latte brown for primary elements */
       }
+      
     </style>
   </head>
   <body>
@@ -101,6 +102,24 @@
           </div>
         </div>
       </div>
+
+      <table class="table table-bordered mt-5 text-center">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Stock</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .products }}
+          <tr>
+            <td>{{ .Name }}</td>
+            <td>{{ .Category.Name }}</td>
+            <td>{{ .Stock }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
     </div>
     <!-- End of Main Content -->
 
