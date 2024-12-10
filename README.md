@@ -1,5 +1,11 @@
 # Golang-FP-Project
 
+| Name           | NRP        | Class     |
+| ---            | ---        | ----------|
+| M Aulia Triatmono | 5025221069 | Framework Based Programming (IUP) |
+| Haiyan Hazrin Bin Haimidon | 5999241100 | Framework Based Programming (IUP) |
+
+
  1. In this FP-Project, we decided to work on stock inventory system, to allow user manage many stocks and divided them into categories
  2. User also can track the products quantity, and manage the inventory with simple and easy CRUD Function.
 
